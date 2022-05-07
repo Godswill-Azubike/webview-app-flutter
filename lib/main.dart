@@ -47,7 +47,7 @@ class _WebViewPlusExampleMainPageState
             height: _height,
             child: WebViewPlus(
               javascriptChannels: null,
-              initialUrl: 'https://globalfxpay.net/login',
+              initialUrl: '',
               onWebViewCreated: (controller) {
                 _controller = controller;
               },
